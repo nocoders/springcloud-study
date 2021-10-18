@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="service-ribbon" />
+        <module name="service-zuul" />
         <module name="eureka-client" />
         <module name="eureka-server" />
         <module name="service-feign" />
@@ -14,6 +15,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eureka-client01" target="8" />
+      <module name="eureka-server (1)" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -22,6 +24,7 @@
       <module name="eureka-server" options="-parameters" />
       <module name="service-feign" options="-parameters" />
       <module name="service-ribbon" options="-parameters" />
+      <module name="service-zuul" options="-parameters" />
       <module name="springcloud-study" options="-parameters" />
     </option>
   </component>
