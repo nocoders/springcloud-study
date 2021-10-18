@@ -6,9 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="service-ribbon" />
         <module name="eureka-client" />
         <module name="eureka-server" />
-        <module name="service-ribbon" />
+        <module name="service-feign" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +20,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eureka-client" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="service-feign" options="-parameters" />
       <module name="service-ribbon" options="-parameters" />
       <module name="springcloud-study" options="-parameters" />
     </option>

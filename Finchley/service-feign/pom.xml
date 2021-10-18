@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.crop.study</groupId>
-    <artifactId>service-ribbon</artifactId>
+    <artifactId>service-feign</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>service-ribbon</name>
-    <description>service-ribbon</description>
+    <name>service-feign</name>
+    <description>service-feign</description>
 
     <dependencies>
         <dependency>
@@ -25,12 +25,7 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-hystrix -->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
     </dependencies>
 

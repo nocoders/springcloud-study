@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/Finchley/eureka-client/pom.xml" />
         <option value="$PROJECT_DIR$/Finchley/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/Finchley/service-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/Finchley/service-feign/pom.xml" />
       </list>
     </option>
   </component>
