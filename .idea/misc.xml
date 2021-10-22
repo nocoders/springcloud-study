@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/Finchley/service-ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/Finchley/service-feign/pom.xml" />
         <option value="$PROJECT_DIR$/Finchley/service-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/Finchley/config-server/pom.xml" />
       </list>
     </option>
   </component>

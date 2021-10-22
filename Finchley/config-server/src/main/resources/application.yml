@@ -1,0 +1,19 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          # 配置git仓库地址
+          uri: https://gitee.com/lglglglgl_admin/spring-cloud-config.git
+          # 配置仓库路径
+          search-paths: respo
+          # 访问git私有仓库的用户名
+          username: 1812323571@qq.com
+          # 访问git 私有仓库密码
+          password: lm19961207
+      #配置仓库的分支
+      label: master
